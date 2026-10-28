@@ -1,0 +1,21 @@
+MIDTERM EMPLOYEE FEATURE
+
+1. Open this folder in VS Code.
+2. Open a terminal in this folder.
+3. Run:
+   dotnet build
+4. Then:
+   dotnet run --project Api
+5. Open:
+   http://localhost:5205/
+
+Employee endpoints:
+POST   /api/employees
+GET    /api/employees
+GET    /api/employees/{id}
+PUT    /api/employees/{id}
+DELETE /api/employees/{id}
+
+The Employee feature includes validation, duplicate EmployeeNumber checking,
+server-generated Id/CreatedAt, seed employees EMP-1001 and EMP-1002,
+and the required 201/200/204/400/404/409 responses.
