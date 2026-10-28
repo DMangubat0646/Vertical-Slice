@@ -14,6 +14,11 @@
 # Mono auto generated files
 mono_crash.*
 
+## Local SQLite database
+*.db
+*.db-shm
+*.db-wal
+
 # Build results
 [Dd]ebug/
 [Rr]elease/
@@ -381,3 +386,10 @@ docker-compose.override.yml
 
 # Files
 Add-Feature-steps.md
+
+
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal

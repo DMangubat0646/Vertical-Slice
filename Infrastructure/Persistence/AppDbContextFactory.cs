@@ -1,4 +1,3 @@
-
 namespace Infrastructure.Persistence;
 
 using Microsoft.EntityFrameworkCore;
